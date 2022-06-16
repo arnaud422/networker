@@ -1,8 +1,8 @@
-import './App.css';
+import './style/root/root.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App text-init">
       app test
     </div>
   );
