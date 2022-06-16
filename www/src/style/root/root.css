@@ -12,6 +12,7 @@ body{
 :root{
     --error: #e74c3c;
     --succes: #2ecc71;
+    --info: #00a8ff;
     --font: #101418;
     --text_init: #dcdde1;
     --border: #7158e2;
@@ -30,4 +31,13 @@ body{
 }
 .text-error{
     color: var(--error);
+}
+.info{
+    color: var(--info)
+}
+.pointer{
+    cursor: pointer;
+}
+.border-test{
+    border: 1px solid var(--error)
 }
