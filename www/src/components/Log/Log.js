@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
+import { uidContext } from "../..";
 
 const Log = (props) => {
   const [signInModal, setsignInModal] = useState(props.signin);
